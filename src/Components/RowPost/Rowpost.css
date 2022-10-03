@@ -17,7 +17,28 @@
     
     max-height: 250px;
     margin-right: 10px;
+    transition: 500ms;
 }
+
+.smallposter
+{
+    
+    max-height: 150px;
+    margin-right: 10px;
+    transition: 500ms;
+}
+.poster:hover
+{
+    transform: scale(1.1);
+}
+.smallposter:hover
+{
+    transform: scale(1.1);
+}
+
+
+
+
 .posters::-webkit-scrollbar
 {
  display: none;
